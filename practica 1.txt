@@ -12,9 +12,9 @@ octubre = 31
 noviembre = 30
 diciembre = 31
 
-dia_nac = 5
+dia_nac = 19
 mes_nac = abril
-año_nac = 2009
+año_nac = 2008
 
 dia_hoy = 5
 mes_hoy = febrero
