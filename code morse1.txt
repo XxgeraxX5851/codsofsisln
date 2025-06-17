@@ -1,0 +1,14 @@
+from preloaded import MORSE_CODE  
+
+def decode_morse(morse_code):
+    words = morse_code.strip().split("   ") 
+    decoded_message = []
+
+    for word in words:
+        letters = word.split(" ")  
+        decoded_word = "".join(MORSE_CODE.get(letter, "") for letter in letters)
+        decoded_message.append(decoded_word)
+
+    return " ".join(decoded_message)
+
+print(decode_morse(".... . -.--   .--- ..- -.. ."))  
